@@ -1,4 +1,53 @@
-       header {
+      :root{
+    --cor-prmaria: #183c63;
+    --cor-segundaria: #3782d2;
+    --cor-fundo: #ffffff;
+    --cor-texto: #151428;
+    --cor-contraste: #f3eef7;
+    --cor-botao: #f9f9f9;
+
+    --fonte-texto: "Segoe UI", sans-serif;
+} 
+ 
+*{
+    transition: background-color 0,8s ease;
+}
+
+.tema-escuro {
+     --cor-prmaria: #183c63;
+    --cor-segundaria: #3782d2;
+    --cor-fundo: #ffffff;
+    --cor-texto: #151428;
+    --cor-contraste: #f3eef7;
+    --cor-botao: #f9f9f9;
+}
+
+.tema-escuro {
+    color: var(--color-texto)
+}
+
+.tema-escuro p {
+    color: var(--cor-contraste);
+    font-weight: 600;
+}
+
+.tema-escuro a {
+    color: var(--cor-secundaria);
+}
+
+.tema-escuro button {
+    border: none;
+    background-color: var(--cor-botao);
+    color: var(--cor-texto);
+}
+
+.tema-escuro article {
+    background-color: #151428;
+}
+
+.
+
+ header {
             background-color: #8dacce;
             color: #FFFFFF;
             text-align: center;
