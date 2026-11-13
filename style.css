@@ -1,7 +1,7 @@
    :root{
-    --cor-prmaria: #183c63;
-    --cor-segundaria: #3782d2;
-    --cor-fundo: #ffffff;
+    --cor-primaria: #ffffff;
+    --cor-segundaria: #000000;
+    --cor-fundo: #977b7b;
     --cor-texto: #151428;
     --cor-contraste: #f3eef7;
     --cor-botao: #f9f9f9;
@@ -14,7 +14,7 @@
 }
 
 .tema-escuro {
-     --cor-prmaria: #183c63;
+     --cor-primaria: #183c63;
     --cor-segundaria: #3782d2;
     --cor-fundo: #ffffff;
     --cor-texto: #151428;
@@ -46,18 +46,16 @@
 }
 
 header {
-            background-color: #8dacce;
-            color: #FFFFFF;
+            background-color: var(--cor-primaria);
+            color:var(--cor-contraste);
             text-align: center;
-            max-width: 800px;
             margin: 0 auto;
             padding: 16px;
         }
 
         main {
-            background-color: #593f96;
-            color: #183C63;
-            max-width: 800px;
+            background-color:var(--cor-primaria);
+            color: var(--cor-contraste);
             margin: 0 auto;
             padding: 16px;
         }
@@ -67,7 +65,7 @@ header {
             margin: 16px;
             flex: 1 1 25%;
             flex-direction: column;
-            align-items: center;
+            align-items: center;zx
             text-align: center;
             justify-content: cenrter;
         }
@@ -79,4 +77,13 @@ header {
 
         .artigo-autor {
             font-weight: bold;
+        }
+
+        .btn-tema-escuro {
+            position: fixed;
+            right: 16px;
+            font-size: 32px;
+            padding: 12px;
+            background-color: var(--cor-primaria);
+            border-radius: 50%;
         }
