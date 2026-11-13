@@ -1,4 +1,4 @@
-      :root{
+   :root{
     --cor-prmaria: #183c63;
     --cor-segundaria: #3782d2;
     --cor-fundo: #ffffff;
@@ -45,9 +45,7 @@
     background-color: #151428;
 }
 
-.
-
- header {
+header {
             background-color: #8dacce;
             color: #FFFFFF;
             text-align: center;
@@ -65,6 +63,13 @@
         }
         article{
             display: flex;
+            box-shadow: ; 2xp 2xp qopx rgba(0, 0, 0, 0.3);
+            margin: 16px;
+            flex: 1 1 25%;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: cenrter;
         }
 
         img {
